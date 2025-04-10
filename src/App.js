@@ -4,7 +4,7 @@
 
 import React, { useState } from "react";
 import { Trash2 } from "lucide-react";
-import { DragDropContext, Droppable, Draggable } from "react-beautiful-dnd";
+import { DragDropContext, Droppable, Draggable } from "@hello-pangea/dnd";
 
 const initialTabs = [
   { title: "日", tasks: [] },
